@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  background-color: "#003300";
+}
+
+.main-wrap {
+  margin : 0 auto;
+  max-width: 900px;
+  background-color: "#aaaaaa";
+}

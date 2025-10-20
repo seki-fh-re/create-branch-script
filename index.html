@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+<main>
+    <div class="main-wrap">
+      <h1>Git ブランチ生成 コマンド</h1>
+      <div>
+        <label for="addFeatureFalse">feature/を付けない</label>
+        <input type="radio" name="add_feature" value="false" id="addFeatureFalse" checked>
+        <label for="addFeatureTrue">feature/を付ける</label>
+        <input type="radio" name="add_feature" value="true" id="addFeatureTrue">
+      </div>
+      <div>
+        <label for="originalBanch">元ブランチ</label>
+        <input type="text" name="" id="originalBranch">
+        <label for="newBanch">生成ブランチ</label>
+        <input type="text" name="" id="newBranch">
+      </div>
+      <div>
+        <input type="button" id="submit"value="生成">
+      </div>
+      <div class="generate-branch-box" id="generateBranch"><span></span></div>
+    </div>
+  </div>
+</main>
+  <script src="./js/script.js"></script>
+</body>
+</html>
